@@ -14,6 +14,6 @@
 
   - Constructs a report using a list of dictionaries, each containing two keyed elements to organize the data effectively. 📝
 
-  - Implements a `sort_on` helper function to only isolate the numerical count for each entry. 🔢
+  - Implements a `sort_on` helper function to only isolate the numerical count for each entry. 
   
-  - This helper function is then employed as the sorting criterion in 'key' within the `sort()` method, which preserves the data in an ordered fashion. ↗️
+  - This helper function is then employed as the sorting criterion in 'key' within the `sort()` method, which preserves the data in an ordered fashion. 
