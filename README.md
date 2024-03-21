@@ -1,22 +1,19 @@
-# **bookbot**
+# **bookbot** 🤖
 
-## Goals
+## Goals 🎯
 
-### * Count Total Words In Text File
+- **Count Total Words In Text File** 📝
 
-###     * Uses a method to iterate through text without whitespaces 
+  - Utilizes a method to iterate through text, excluding whitespaces, to maintain an accurate word count. 🔍
+  
+- **Count Total Instances of Letters In Text File** 🅰️
 
-###     * Keeps a running total of the words
+  - Employs the `isalpha` method to filter and tally only alphabetic characters within a text, storing the results in a dictionary. 📊
 
-### * Count Total Instances of Letters In Text File
+- **Generate a Detailed Report** 📈
 
-###     * Uses isalpha method to add only letters of the text in a dictionary
+  - Constructs a report using a list of dictionaries, each containing two keyed elements to organize and present data effectively. 📝
 
-### * Information is inputted in a report method 
-
-###     * Uses a list of dictionaries to create two keyed elements
-
-###     * Uses a helper sort_on function to return only the numerical count key
-
-###     * This helper function then is used in the sort() function as the key to sort on
-
+  - Implements a `sort_on` helper function to isolate the numerical count for each entry. 🔢
+  
+  - This helper function is subsequently employed as the sorting criterion in the `sort()` method, ensuring data is presented in an ordered fashion. ↗️
